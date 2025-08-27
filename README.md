@@ -1,4 +1,11 @@
-# ATP Performance Dashboard
+## Table of Contents
+- [Project Overview](#project-overview)
+- [Dataset](#dataset)
+- [How to Run](#how-to-run)
+- [Results](#results)
+-
+  # ATP Performance Dashboard
+  ## Project-overview
 This project investigated the question “What measurable factors contribute to success among ATP (Association of Tennis Professionals) tournament champions spanning 2014 to mid-2024”. The datasets, which were sourced from Kaggle, were manually compiled and appended to each other in Excel, before being imported into SAS for cleaning and analysis, and Power Bi for visualisation.
 This project centres around three null hypotheses: 
 
@@ -11,11 +18,7 @@ This project centres around three null hypotheses:
 ## Hypothesis 3:
 ### - Player handedness does not impact number of aces achieved
 
-## Table of Contents
-- [Project Overview](#project-overview)
-- [Dataset](#dataset)
-- [How to Run](#how-to-run)
-- [Results](#results)
+
 
 ## Dataset
 - **Source:** [ATP Tennis Dataset on Kaggle](https://www.kaggle.com/datasets/guillemservera/tennis)  
@@ -40,7 +43,7 @@ This project centres around three null hypotheses:
 - The Power BI Dashboard is available here:
 [ATP_PBI_Final.pbix](Dashboard/ATP_PBI.pbix)
 
-## Results / Highlights
+## Results
 ### Hypothesis 1 - Players heights have no impact the number of aces achieved
 ### REJECT THE NULL
 (r=0.486, p < 0.0001)
