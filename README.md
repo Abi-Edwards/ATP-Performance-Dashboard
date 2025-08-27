@@ -30,7 +30,7 @@ There were three Null Hypotheses to be tested
 
 ### Write Up
 - The write up for this project can be found here:
-[ATP write up new.docx](Docs/ATP write up new.docx)
+[ATP_Write_Up.docx](Docs/ATP_Write_Up.docx)
  
 ### SAS
 - The SAS code used to cleanse, transform, and analyse the data can be found here:
@@ -38,7 +38,7 @@ There were three Null Hypotheses to be tested
 
 ### Power BI
 - The Power BI Dashboard is available here:
-[ATP PBI_Final - Copy.pbix](Dashboard/ATP PBI_Final - Copy.pbix)
+[ATP_PBI_Final.pbix](Dashboard/ATP_PBI.pbix)
 
 ## Results / Highlights
 ### Hypothesis 1 - Players heights have no impact the number of aces achieved
