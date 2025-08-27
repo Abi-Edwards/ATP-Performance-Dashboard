@@ -1,7 +1,7 @@
 # ATP Performance Dashboard
+This project investigated the question “What measurable factors contribute to success among ATP (Association of Tennis Professionals) tournament champions spanning 2014 to mid-2024”. The datasets, which were sourced from Kaggle, were manually compiled and appended to each other in Excel, before being imported into SAS for cleaning and analysis, and Power Bi for visualisation.
+This project centres around three null hypotheses: 
 
-This project explores ATP tennis data to generate insights into player performance using **SAS** for analysis and **Power BI** for visualization.
-There were three Null Hypotheses to be tested
 ## Hypothesis 1:
 ### - Players heights have no impact the number of aces achieved
 
@@ -11,11 +11,11 @@ There were three Null Hypotheses to be tested
 ## Hypothesis 3:
 ### - Player handedness does not impact number of aces achieved
 
-## Repository Contents
-- **/docs** – Project write-up
-- **/code** – SAS analysis code (This is saved in a word doc to be copied into SAS code)
-- **/dashboard** – Power BI dashboard
-- **/data** – Kaggle dataset
+## Table of Contents
+- [Project Overview](#project-overview)
+- [Dataset](#dataset)
+- [How to Run](#how-to-run)
+- [Results](#results)
 
 ## Dataset
 - **Source:** [ATP Tennis Dataset on Kaggle](https://www.kaggle.com/datasets/guillemservera/tennis)  
