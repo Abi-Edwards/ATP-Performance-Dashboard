@@ -9,14 +9,14 @@
 This project investigated the question “What measurable factors contribute to success among ATP (Association of Tennis Professionals) tournament champions spanning 2014 to mid-2024”. The datasets, which were sourced from Kaggle, were manually compiled and appended to each other in Excel, before being imported into SAS for cleaning and analysis, and Power Bi for visualisation.
 This project centres around three null hypotheses: 
 
-## Hypothesis 1:
-### - Players heights have no impact the number of aces achieved
+### Hypothesis 1:
+#### - Players heights have no impact the number of aces achieved
 
-## Hypothesis 2:
-### - Match length does not differ across different tournaments
+### Hypothesis 2:
+#### - Match length does not differ across different tournaments
 
-## Hypothesis 3:
-### - Player handedness does not impact number of aces achieved
+### Hypothesis 3:
+#### - Player handedness does not impact number of aces achieved
 
 ## Tools used
 ![Excel](https://img.shields.io/badge/Excel-Analysis-green)
