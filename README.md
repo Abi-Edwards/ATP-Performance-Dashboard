@@ -12,11 +12,10 @@ There were three Null Hypotheses to be tested
 ### - Player handedness does not impact number of aces achieved
 
 ## Repository Contents
-- **/docs** – Project write-up (placeholder; final Word document to be uploaded once available)
-- **/code** – SAS analysis code (placeholder; final `.sas` file will be uploaded when available)
-- **/dashboard** – Power BI dashboard (PBIX placeholder; this will be uploaded when available)
-- **/images** – Dashboard screenshots when available
-- **/data** – Dataset information and links
+- **/docs** – Project write-up
+- **/code** – SAS analysis code (This is saved in a word doc to be copied into SAS code)
+- **/dashboard** – Power BI dashboard
+- **/data** – Kaggle dataset
 
 ## Dataset
 - **Source:** [ATP Tennis Dataset on Kaggle](https://www.kaggle.com/datasets/guillemservera/tennis)  
@@ -24,14 +23,22 @@ There were three Null Hypotheses to be tested
 - **How obtained:** Downloaded on 02/07/2025
 
 ## How to Run
-- Once the required datasets have been downloaded (In this case, data from 2014-2024), run the SAS code highlighted in the SAS folder. No cleansing required at this stage, but do confirm datasets match each other.
+- Once the required datasets have been downloaded (In this case, data from 2014-2024), append data together (No cleansing required at this stage, but do confirm datasets match each other).
+- Import the data into SAS
+- Run the SAS code highlighted in the SAS folder. 
 - Consolidation of datasets was carried out in Excel but this can be done in SAS too (not in the code provided)
+
+### Write Up
+- The write up for this project can be found here:
+[ATP write up new.docx](Docs/ATP write up new.docx)
  
 ### SAS
-- In this section I will include the SAS code used to cleanse, transform, and analyse the data. This is not currently available due to IT restrictions.
+- The SAS code used to cleanse, transform, and analyse the data can be found here:
+[code.docx](code/code.docx)
 
 ### Power BI
-- In this section I will include the PBI dashboard used to display the findings. This is not currently available due to IT restrictions.
+- The Power BI Dashboard is available here:
+[ATP PBI_Final - Copy.pbix](Dashboard/ATP PBI_Final - Copy.pbix)
 
 ## Results / Highlights
 ### Hypothesis 1 - Players heights have no impact the number of aces achieved
