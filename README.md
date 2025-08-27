@@ -28,15 +28,15 @@ There were three Null Hypotheses to be tested
 - Run the SAS code highlighted in the SAS folder. 
 - Consolidation of datasets was carried out in Excel but this can be done in SAS too (not in the code provided)
 
-### Write Up
+## Write Up
 - The write up for this project can be found here:
 [ATP_Write_Up.docx](Docs/ATP_Write_Up.docx)
  
-### SAS
+## SAS
 - The SAS code used to cleanse, transform, and analyse the data can be found here:
 [code.docx](code/code.docx)
 
-### Power BI
+## Power BI
 - The Power BI Dashboard is available here:
 [ATP_PBI_Final.pbix](Dashboard/ATP_PBI.pbix)
 
@@ -52,3 +52,7 @@ There were three Null Hypotheses to be tested
 ### Hypothesis 3 - Player handedness does not impact number of aces achieved 
 ### REJECT THE NULL
 (p = 0.0009)
+
+## Conclusion
+These finding can be used by players or coaches to help the way they train.
+The data is rich enough to be improved endlessly and there are countless tools that could be implemented to help with cleansing, analysing or displaying the finding. 
