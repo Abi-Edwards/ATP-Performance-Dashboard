@@ -18,7 +18,10 @@ This project centres around three null hypotheses:
 ## Hypothesis 3:
 ### - Player handedness does not impact number of aces achieved
 
-
+## Tools used
+![Excel](https://img.shields.io/badge/Excel-Analysis-green)
+![SAS](https://img.shields.io/badge/SAS-Analysis-blue)
+![Power BI](https://img.shields.io/badge/Power%20BI-Dashboard-orange)
 
 ## Dataset
 - **Source:** [ATP Tennis Dataset on Kaggle](https://www.kaggle.com/datasets/guillemservera/tennis)  
@@ -26,10 +29,14 @@ This project centres around three null hypotheses:
 - **How obtained:** Downloaded on 02/07/2025
 
 ## How to Run
-- Once the required datasets have been downloaded (In this case, data from 2014-2024), append data together (No cleansing required at this stage, but do confirm datasets match each other).
-- Import the data into SAS
-- Run the SAS code highlighted in the SAS folder. 
-- Consolidation of datasets was carried out in Excel but this can be done in SAS too (not in the code provided)
+- Find the data at https://www.kaggle.com/datasets/guillemservera/tenni
+- Download required datasets (In this case data from 2014 to 2024 was used)
+- Open the files in excel and ensuring the datasets match each other, copy and paste into one "master sheet"
+- Open SAS Enterprise Guide
+- Import the master sheet
+- Run the code found here [code.docx](code/code.docx)
+- Export the "Results" outputs and save in Excel
+- Visuals can now be created using your tool of choice - I chose Power BI and my dashboard can be found here [ATP_PBI_Final.pbix](Dashboard/ATP_PBI.pbix)
 
 ## Write Up
 - The write up for this project can be found here:
@@ -45,17 +52,19 @@ This project centres around three null hypotheses:
 
 ## Results
 ### Hypothesis 1 - Players heights have no impact the number of aces achieved
-### REJECT THE NULL
+### Test - Pearson Correlation 
+### Conclusion - REJECT THE NULL
 (r=0.486, p < 0.0001)
 
 ### Hypothesis 2 - Match length does not differ across different tournaments
-### REJECT THE NULL
+### Test - One-Way ANOVA
+### Conclusion - REJECT THE NULL
 (F=3.23, p < 0.0001)
 
 ### Hypothesis 3 - Player handedness does not impact number of aces achieved 
-### REJECT THE NULL
+### Test - Independent T-Test
+### Conclusion - REJECT THE NULL
 (p = 0.0009)
 
 ## Conclusion
-These finding can be used by players or coaches to help the way they train.
-The data is rich enough to be improved endlessly and there are countless tools that could be implemented to help with cleansing, analysing or displaying the finding. 
+Overall, the findings highlight how statistical methods can uncover meaningful trends in sports data. These insights could inform coaching strategies, player development, and tournaments planning. The project also demonstrates the importance of careful data preparation and the use of appropriate tools to support analysis. 
